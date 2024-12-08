@@ -5,7 +5,7 @@
     "preferred_trains": ["charts"],
     "trains": {
       "charts": {
-        "name": "custom-apps",
+        "name": "charts",
         "description": "Train containing custom apps",
         "location": "./charts"
       }
