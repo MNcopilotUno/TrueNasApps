@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: gitea/act_runner
+  tag: latest
+  pullPolicy: IfNotPresent
+
+runner:
+  url: "https://devops.cncdigital.cz/" # Gitea instance URL
+  token: ""                             # Registration token from Gitea
+  name: "truenas-runner"
+
+resources: {}
