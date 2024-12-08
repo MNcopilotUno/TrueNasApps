@@ -1,13 +1,14 @@
 {
-    "name": "Custom Apps",
+    "name": "custom-apps",
     "description": "A catalog of custom apps for TrueNAS SCALE.",
-    "location": "charts",
+    "location": "./charts",
     "preferred_trains": ["charts"],
     "trains": {
       "charts": {
-        "name": "Custom Apps",
+        "name": "custom-apps",
         "description": "Train containing custom apps",
         "location": "./charts"
       }
     }
-  }  
+  }
+  
