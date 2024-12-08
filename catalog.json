@@ -1,14 +1,43 @@
 {
-    "name": "custom-apps",
-    "description": "A catalog of custom apps for TrueNAS SCALE.",
-    "location": "./charts",
-    "preferred_trains": ["charts"],
-    "trains": {
-      "charts": {
-        "name": "charts",
-        "description": "Train containing custom apps",
-        "location": "./charts"
-      }
+    "charts": {},
+    "incubator": {
+        "gitea-runner": {
+            "app_readme": "<p>The Gitea Runner is a lightweight and fast CI/CD solution to run Gitea Actions workflows.</p>\n<p>This App is supplied by the community for TrueNAS SCALE. For more information, visit the manual: <a href=\"https://gitea.com/gitea/act_runner\">https://gitea.com/gitea/act_runner</a></p>\n<hr />\n<p>If you find this helpful, consider contributing back to the project or supporting open-source efforts!</p>",
+            "categories": [
+                "ci/cd",
+                "developer-tools"
+            ],
+            "description": "A lightweight runner for Gitea Actions to execute workflows.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://gitea.com/gitea/act_runner",
+            "location": "./charts/gitea-runner",
+            "latest_version": "1.0.0",
+            "latest_app_version": "latest",
+            "latest_human_version": "latest_1.0.0",
+            "last_update": "2024-05-29 12:35:14",
+            "name": "gitea-runner",
+            "recommended": false,
+            "title": "Gitea Runner",
+            "maintainers": [
+                {
+                    "name": "Community",
+                    "email": "support@example.com",
+                    "url": "https://gitea.com/gitea/act_runner"
+                }
+            ],
+            "tags": [
+                "gitea",
+                "ci",
+                "runner"
+            ],
+            "screenshots": [],
+            "sources": [
+                "https://gitea.com/gitea/act_runner",
+                "https://github.com/go-gitea/gitea",
+                "https://hub.docker.com/r/gitea/act_runner"
+            ],
+            "icon_url": "https://gitea.io/images/gitea.png"
+        }
     }
-  }
-  
+}
