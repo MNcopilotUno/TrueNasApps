@@ -1,6 +1,6 @@
 {
     "charts": {},
-    "incubator": {
+    "stable": {
         "gitea-runner": {
             "app_readme": "<p>The Gitea Runner is a lightweight and fast CI/CD solution to run Gitea Actions workflows.</p>\n<p>This App is supplied by the community for TrueNAS SCALE. For more information, visit the manual: <a href=\"https://gitea.com/gitea/act_runner\">https://gitea.com/gitea/act_runner</a></p>\n<hr />\n<p>If you find this helpful, consider contributing back to the project or supporting open-source efforts!</p>",
             "categories": [
